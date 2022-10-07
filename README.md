@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/katrine9176/3-column-preview-Frontendmentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://katrine9176.github.io/3-column-preview-Frontendmentor/)
 
 
 ### Built with
