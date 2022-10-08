@@ -27,16 +27,12 @@ body {
   margin: 1em;
   border-radius: 8px;
 }
-.cards-box .card-one .heading,
-.cards-box .card-two .heading,
-.cards-box .card-three .heading {
+.cards-box .card .heading {
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   color: hsl(0deg, 0%, 95%);
 }
-.cards-box .card-one .paragraph,
-.cards-box .card-two .paragraph,
-.cards-box .card-three .paragraph {
+.cards-box .card .paragraph {
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 .cards-box .card-one {
@@ -65,9 +61,7 @@ body {
 .cards-box .card-content .paragraph {
   font-size: 1.3rem;
 }
-.cards-box .btn-one,
-.cards-box .btn-two,
-.cards-box .btn-three {
+.cards-box .btn {
   margin: 2em;
   padding: 1em;
   font-size: 1.2rem;
@@ -119,14 +113,12 @@ body {
   .cards-box {
     display: flex;
   }
-  .cards-box .card-one,
-.cards-box .card-two,
-.cards-box .card-three {
+  .cards-box .card {
     width: 25vw;
   }
   .cards-box .card-one {
     border-bottom-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-right-radius: 0px;
   }
   .cards-box .card-three {
     border-top-right-radius: 8px;
@@ -137,32 +129,28 @@ body {
   }
   .cards-box .card-content .paragraph {
     margin-bottom: 2.5em;
-    height: 200px;
+    height: 150px;
     font-size: 1.5rem;
   }
-  .cards-box .btn-one,
-.cards-box .btn-two,
-.cards-box .btn-three {
+  .cards-box .btn {
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1000px) {
   .cards-box .card-content .paragraph {
-    height: 15vh;
+    height: 100px;
   }
 }
 @media (min-width: 1200px) {
-  .cards-box .card-one,
-.cards-box .card-two,
-.cards-box .card-three {
+  .cards-box .card {
     width: 20vw;
   }
   .cards-box .card-content .paragraph {
-    height: 10vh;
+    height: 90px;
   }
 }
 @media (min-width: 1400px) {
   .cards-box .card-content .paragraph {
-    height: 5vh;
+    height: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

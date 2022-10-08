@@ -29,9 +29,7 @@ body {
 	margin: 1em;
 	border-radius: 8px;
 
-	.card-one,
-	.card-two,
-	.card-three {
+	.card {
 		.heading {
 			font-family: 'Big Shoulders Display', cursive;
 			text-transform: uppercase;
@@ -76,9 +74,7 @@ body {
 		}
 	}
 
-	.btn-one,
-	.btn-two,
-	.btn-three {
+	.btn {
 		margin: 2em;
 		padding: 1em;
 		font-size: 1.2rem;
@@ -140,15 +136,13 @@ body {
 	.cards-box {
 		display: flex;
 
-		.card-one,
-		.card-two,
-		.card-three {
+		.card {
 			width: 25vw;
 		}
 
 		.card-one {
 			border-bottom-left-radius: 8px;
-			border-top-right-radius: 8px;
+			border-top-right-radius: 0px;
 		}
 
 		.card-three {
@@ -163,13 +157,11 @@ body {
 
 			.paragraph {
 				margin-bottom: 2.5em;
-				height: 200px;
+				height: 150px;
 				font-size: 1.5rem;
 			}
 		}
-		.btn-one,
-		.btn-two,
-		.btn-three {
+		.btn {
 			font-size: 1.5rem;
 		}
 	}
@@ -179,7 +171,7 @@ body {
 	.cards-box {
 		.card-content {
 			.paragraph {
-				height: 15vh;
+				height: 100px;
 			}
 		}
 	}
@@ -187,15 +179,13 @@ body {
 
 @media (min-width: 1200px) {
 	.cards-box {
-            .card-one,
-            .card-two,
-            .card-three {
+            .card {
                 width: 20vw;
             }
 
 		.card-content {
 			.paragraph {
-				height: 10vh;
+				height: 90px;
 			}
 		}
 	}
@@ -205,7 +195,7 @@ body {
 	.cards-box {
 		.card-content {
 			.paragraph {
-				height: 5vh;
+				height: 50px;
 			}
 		}
 	}
